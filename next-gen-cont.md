@@ -29,6 +29,7 @@ subgraph Motion
 	M3
 end
 subgraph Task
+direction TB
 	T1
 	T2
 	T3
