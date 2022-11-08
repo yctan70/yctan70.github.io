@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TB
+flowchart LR
 M("MotWriteFToPlc()") --> D[["plc_data_from_motion_t"]]
 D --> P("PlcReadFromMotion()")
 P1("PlcWriteGToMot()") --> D1[["plc_data_to_motion_t"]]
